@@ -1,0 +1,19 @@
+# gtinfinder — one Worker for gtinfinder.ai and every market node (<market>.gtinfinder.ai).
+# Deploy with your own Cloudflare API token: npx wrangler@4 deploy
+# secret: FINDER_KEY (the key gtinfinder sends with its reads on gtinfetch.ai; set with wrangler secret put, never written to a file)
+name = "gtinfinder"
+main = "src/index.js"
+account_id = "<your Cloudflare account id>"
+compatibility_date = "2026-09-01"
+workers_dev = false
+
+routes = [{ pattern = "gtinfinder.ai/*", zone_name = "gtinfinder.ai" }, { pattern = "*.gtinfinder.ai/*", zone_name = "gtinfinder.ai" }]
+
+[observability]
+enabled = true
+head_sampling_rate = 1
+
+# the store: each node's own list of barcodes (c:<node>:<NNNNN>), its counts (n:<node>), the homes table (_homes); written by homes.py
+[[kv_namespaces]]
+binding = "FINDER"
+id = "<your KV namespace id>"

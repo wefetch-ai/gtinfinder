@@ -1,0 +1,1392 @@
+{
+ "note": "The markets gtinfinder serves, each with its node address, its ISO code as the gtinfetch record writes it, its page language, its Azure market region (where WeFetch runs one in or for the market) and the gtinfetch record region that answers its pages.",
+ "record_regions": {
+  "fr": "France Central",
+  "sg": "Southeast Asia",
+  "us": "West US 2"
+ },
+ "markets": [
+  {
+   "node": "uk",
+   "iso": "GB",
+   "name": "United Kingdom",
+   "region": "Europe",
+   "lang": "en",
+   "local": true,
+   "azure": "UK South",
+   "serve": "fr"
+  },
+  {
+   "node": "fr",
+   "iso": "FR",
+   "name": "France",
+   "region": "Europe",
+   "lang": "fr",
+   "local": true,
+   "azure": "France Central",
+   "serve": "fr"
+  },
+  {
+   "node": "de",
+   "iso": "DE",
+   "name": "Germany",
+   "region": "Europe",
+   "lang": "de",
+   "local": true,
+   "azure": "Germany West Central",
+   "serve": "fr"
+  },
+  {
+   "node": "es",
+   "iso": "ES",
+   "name": "Spain",
+   "region": "Europe",
+   "lang": "es",
+   "local": true,
+   "azure": "Spain Central",
+   "serve": "fr"
+  },
+  {
+   "node": "it",
+   "iso": "IT",
+   "name": "Italy",
+   "region": "Europe",
+   "lang": "it",
+   "local": true,
+   "azure": "Italy North",
+   "serve": "fr"
+  },
+  {
+   "node": "ch",
+   "iso": "CH",
+   "name": "Switzerland",
+   "region": "Europe",
+   "lang": "de",
+   "local": true,
+   "azure": "Switzerland North",
+   "serve": "fr"
+  },
+  {
+   "node": "nl",
+   "iso": "NL",
+   "name": "Netherlands",
+   "region": "Europe",
+   "lang": "nl",
+   "local": true,
+   "azure": "West Europe",
+   "serve": "fr"
+  },
+  {
+   "node": "pl",
+   "iso": "PL",
+   "name": "Poland",
+   "region": "Europe",
+   "lang": "pl",
+   "local": true,
+   "azure": "Poland Central",
+   "serve": "fr"
+  },
+  {
+   "node": "be",
+   "iso": "BE",
+   "name": "Belgium",
+   "region": "Europe",
+   "lang": "nl",
+   "local": true,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "bg",
+   "iso": "BG",
+   "name": "Bulgaria",
+   "region": "Europe",
+   "lang": "bg",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "cz",
+   "iso": "CZ",
+   "name": "Czech Republic",
+   "region": "Europe",
+   "lang": "cs",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "fi",
+   "iso": "FI",
+   "name": "Finland",
+   "region": "Europe",
+   "lang": "fi",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "gr",
+   "iso": "GR",
+   "name": "Greece",
+   "region": "Europe",
+   "lang": "el",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "hu",
+   "iso": "HU",
+   "name": "Hungary",
+   "region": "Europe",
+   "lang": "hu",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "ie",
+   "iso": "IE",
+   "name": "Ireland",
+   "region": "Europe",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "pt",
+   "iso": "PT",
+   "name": "Portugal",
+   "region": "Europe",
+   "lang": "pt",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "rs",
+   "iso": "RS",
+   "name": "Serbia",
+   "region": "Europe",
+   "lang": "sr",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "ru",
+   "iso": "RU",
+   "name": "Russia",
+   "region": "Europe",
+   "lang": "ru",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "sk",
+   "iso": "SK",
+   "name": "Slovakia",
+   "region": "Europe",
+   "lang": "sk",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "se",
+   "iso": "SE",
+   "name": "Sweden",
+   "region": "Europe",
+   "lang": "sv",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "tr",
+   "iso": "TR",
+   "name": "Türkiye",
+   "region": "Europe",
+   "lang": "tr",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "ua",
+   "iso": "UA",
+   "name": "Ukraine",
+   "region": "Europe",
+   "lang": "uk",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "at",
+   "iso": "AT",
+   "name": "Austria",
+   "region": "Europe",
+   "lang": "de",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "dk",
+   "iso": "DK",
+   "name": "Denmark",
+   "region": "Europe",
+   "lang": "da",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "ro",
+   "iso": "RO",
+   "name": "Romania",
+   "region": "Europe",
+   "lang": "ro",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "hr",
+   "iso": "HR",
+   "name": "Croatia",
+   "region": "Europe",
+   "lang": "hr",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "si",
+   "iso": "SI",
+   "name": "Slovenia",
+   "region": "Europe",
+   "lang": "sl",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "lv",
+   "iso": "LV",
+   "name": "Latvia",
+   "region": "Europe",
+   "lang": "lv",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "ee",
+   "iso": "EE",
+   "name": "Estonia",
+   "region": "Europe",
+   "lang": "et",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "lu",
+   "iso": "LU",
+   "name": "Luxembourg",
+   "region": "Europe",
+   "lang": "fr",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "mt",
+   "iso": "MT",
+   "name": "Malta",
+   "region": "Europe",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "cy",
+   "iso": "CY",
+   "name": "Cyprus",
+   "region": "Europe",
+   "lang": "el",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "us",
+   "iso": "US",
+   "name": "United States",
+   "region": "Americas",
+   "lang": "en",
+   "local": true,
+   "azure": "South Central US and West US 2",
+   "serve": "us"
+  },
+  {
+   "node": "ca",
+   "iso": "CA",
+   "name": "Canada",
+   "region": "Americas",
+   "lang": "en",
+   "local": true,
+   "azure": "Canada Central",
+   "serve": "us"
+  },
+  {
+   "node": "mx",
+   "iso": "MX",
+   "name": "Mexico",
+   "region": "Americas",
+   "lang": "es",
+   "local": true,
+   "azure": "Mexico Central",
+   "serve": "us"
+  },
+  {
+   "node": "br",
+   "iso": "BR",
+   "name": "Brazil",
+   "region": "Americas",
+   "lang": "pt",
+   "local": true,
+   "azure": "Brazil South",
+   "serve": "us"
+  },
+  {
+   "node": "ar",
+   "iso": "AR",
+   "name": "Argentina",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "bo",
+   "iso": "BO",
+   "name": "Bolivia",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "cl",
+   "iso": "CL",
+   "name": "Chile",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "co",
+   "iso": "CO",
+   "name": "Colombia",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "cu",
+   "iso": "CU",
+   "name": "Cuba",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "do",
+   "iso": "DO",
+   "name": "Dominican Republic",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "ec",
+   "iso": "EC",
+   "name": "Ecuador",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "gt",
+   "iso": "GT",
+   "name": "Guatemala",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "pa",
+   "iso": "PA",
+   "name": "Panama",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "pe",
+   "iso": "PE",
+   "name": "Peru",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "tt",
+   "iso": "TT",
+   "name": "Trinidad and Tobago",
+   "region": "Americas",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "uy",
+   "iso": "UY",
+   "name": "Uruguay",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "ve",
+   "iso": "VE",
+   "name": "Venezuela",
+   "region": "Americas",
+   "lang": "es",
+   "local": false,
+   "azure": null,
+   "serve": "us"
+  },
+  {
+   "node": "au",
+   "iso": "AU",
+   "name": "Australia",
+   "region": "Asia-Pacific",
+   "lang": "en",
+   "local": true,
+   "azure": "Australia East",
+   "serve": "sg"
+  },
+  {
+   "node": "jp",
+   "iso": "JP",
+   "name": "Japan",
+   "region": "Asia-Pacific",
+   "lang": "ja",
+   "local": true,
+   "azure": "Japan East",
+   "serve": "sg"
+  },
+  {
+   "node": "in",
+   "iso": "IN",
+   "name": "India",
+   "region": "Asia-Pacific",
+   "lang": "en",
+   "local": true,
+   "azure": "Central India",
+   "serve": "sg"
+  },
+  {
+   "node": "id",
+   "iso": "ID",
+   "name": "Indonesia",
+   "region": "Asia-Pacific",
+   "lang": "id",
+   "local": false,
+   "azure": null,
+   "serve": "sg"
+  },
+  {
+   "node": "my",
+   "iso": "MY",
+   "name": "Malaysia",
+   "region": "Asia-Pacific",
+   "lang": "ms",
+   "local": false,
+   "azure": null,
+   "serve": "sg"
+  },
+  {
+   "node": "nz",
+   "iso": "NZ",
+   "name": "New Zealand",
+   "region": "Asia-Pacific",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "sg"
+  },
+  {
+   "node": "pk",
+   "iso": "PK",
+   "name": "Pakistan",
+   "region": "Asia-Pacific",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "sg"
+  },
+  {
+   "node": "pg",
+   "iso": "PG",
+   "name": "Papua New Guinea",
+   "region": "Asia-Pacific",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "sg"
+  },
+  {
+   "node": "sg",
+   "iso": "SG",
+   "name": "Singapore",
+   "region": "Asia-Pacific",
+   "lang": "en",
+   "local": true,
+   "azure": "Southeast Asia",
+   "serve": "sg"
+  },
+  {
+   "node": "kr",
+   "iso": "KR",
+   "name": "South Korea",
+   "region": "Asia-Pacific",
+   "lang": "ko",
+   "local": true,
+   "azure": "Korea Central",
+   "serve": "sg"
+  },
+  {
+   "node": "lk",
+   "iso": "LK",
+   "name": "Sri Lanka",
+   "region": "Asia-Pacific",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "sg"
+  },
+  {
+   "node": "th",
+   "iso": "TH",
+   "name": "Thailand",
+   "region": "Asia-Pacific",
+   "lang": "th",
+   "local": true,
+   "azure": null,
+   "serve": "sg"
+  },
+  {
+   "node": "vn",
+   "iso": "VN",
+   "name": "Vietnam",
+   "region": "Asia-Pacific",
+   "lang": "vi",
+   "local": true,
+   "azure": null,
+   "serve": "sg"
+  },
+  {
+   "node": "dz",
+   "iso": "DZ",
+   "name": "Algeria",
+   "region": "Middle East and Africa",
+   "lang": "ar",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "bh",
+   "iso": "BH",
+   "name": "Bahrain",
+   "region": "Middle East and Africa",
+   "lang": "ar",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "cm",
+   "iso": "CM",
+   "name": "Cameroon",
+   "region": "Middle East and Africa",
+   "lang": "fr",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "eg",
+   "iso": "EG",
+   "name": "Egypt",
+   "region": "Middle East and Africa",
+   "lang": "ar",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "gh",
+   "iso": "GH",
+   "name": "Ghana",
+   "region": "Middle East and Africa",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "ir",
+   "iso": "IR",
+   "name": "Iran",
+   "region": "Middle East and Africa",
+   "lang": "fa",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "il",
+   "iso": "IL",
+   "name": "Israel",
+   "region": "Middle East and Africa",
+   "lang": "he",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "jo",
+   "iso": "JO",
+   "name": "Jordan",
+   "region": "Middle East and Africa",
+   "lang": "ar",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "lb",
+   "iso": "LB",
+   "name": "Lebanon",
+   "region": "Middle East and Africa",
+   "lang": "ar",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "ma",
+   "iso": "MA",
+   "name": "Morocco",
+   "region": "Middle East and Africa",
+   "lang": "ar",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "ng",
+   "iso": "NG",
+   "name": "Nigeria",
+   "region": "Middle East and Africa",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "qa",
+   "iso": "QA",
+   "name": "Qatar",
+   "region": "Middle East and Africa",
+   "lang": "ar",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "sa",
+   "iso": "SA",
+   "name": "Saudi Arabia",
+   "region": "Middle East and Africa",
+   "lang": "ar",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "za",
+   "iso": "ZA",
+   "name": "South Africa",
+   "region": "Middle East and Africa",
+   "lang": "en",
+   "local": false,
+   "azure": null,
+   "serve": "fr"
+  },
+  {
+   "node": "ae",
+   "iso": "AE",
+   "name": "United Arab Emirates",
+   "region": "Middle East and Africa",
+   "lang": "ar",
+   "local": false,
+   "azure": "UAE North",
+   "serve": "fr"
+  }
+ ],
+ "gs1_prefixes": [
+  [
+   "000",
+   "019",
+   "US"
+  ],
+  [
+   "030",
+   "039",
+   "US"
+  ],
+  [
+   "060",
+   "139",
+   "US"
+  ],
+  [
+   "300",
+   "379",
+   "FR"
+  ],
+  [
+   "380",
+   "380",
+   "BG"
+  ],
+  [
+   "383",
+   "383",
+   "SI"
+  ],
+  [
+   "385",
+   "385",
+   "HR"
+  ],
+  [
+   "387",
+   "387",
+   "BA"
+  ],
+  [
+   "389",
+   "389",
+   "ME"
+  ],
+  [
+   "400",
+   "440",
+   "DE"
+  ],
+  [
+   "450",
+   "459",
+   "JP"
+  ],
+  [
+   "490",
+   "499",
+   "JP"
+  ],
+  [
+   "460",
+   "469",
+   "RU"
+  ],
+  [
+   "470",
+   "470",
+   "KG"
+  ],
+  [
+   "471",
+   "471",
+   "TW"
+  ],
+  [
+   "474",
+   "474",
+   "EE"
+  ],
+  [
+   "475",
+   "475",
+   "LV"
+  ],
+  [
+   "476",
+   "476",
+   "AZ"
+  ],
+  [
+   "477",
+   "477",
+   "LT"
+  ],
+  [
+   "478",
+   "478",
+   "UZ"
+  ],
+  [
+   "479",
+   "479",
+   "LK"
+  ],
+  [
+   "480",
+   "480",
+   "PH"
+  ],
+  [
+   "481",
+   "481",
+   "BY"
+  ],
+  [
+   "482",
+   "482",
+   "UA"
+  ],
+  [
+   "483",
+   "483",
+   "TM"
+  ],
+  [
+   "484",
+   "484",
+   "MD"
+  ],
+  [
+   "485",
+   "485",
+   "AM"
+  ],
+  [
+   "486",
+   "486",
+   "GE"
+  ],
+  [
+   "487",
+   "487",
+   "KZ"
+  ],
+  [
+   "488",
+   "488",
+   "TJ"
+  ],
+  [
+   "489",
+   "489",
+   "HK"
+  ],
+  [
+   "500",
+   "509",
+   "GB"
+  ],
+  [
+   "520",
+   "521",
+   "GR"
+  ],
+  [
+   "528",
+   "528",
+   "LB"
+  ],
+  [
+   "529",
+   "529",
+   "CY"
+  ],
+  [
+   "530",
+   "530",
+   "AL"
+  ],
+  [
+   "531",
+   "531",
+   "MK"
+  ],
+  [
+   "535",
+   "535",
+   "MT"
+  ],
+  [
+   "539",
+   "539",
+   "IE"
+  ],
+  [
+   "540",
+   "549",
+   "BE"
+  ],
+  [
+   "560",
+   "560",
+   "PT"
+  ],
+  [
+   "569",
+   "569",
+   "IS"
+  ],
+  [
+   "570",
+   "579",
+   "DK"
+  ],
+  [
+   "590",
+   "590",
+   "PL"
+  ],
+  [
+   "594",
+   "594",
+   "RO"
+  ],
+  [
+   "599",
+   "599",
+   "HU"
+  ],
+  [
+   "600",
+   "601",
+   "ZA"
+  ],
+  [
+   "603",
+   "603",
+   "GH"
+  ],
+  [
+   "604",
+   "604",
+   "SN"
+  ],
+  [
+   "608",
+   "608",
+   "BH"
+  ],
+  [
+   "609",
+   "609",
+   "MU"
+  ],
+  [
+   "611",
+   "611",
+   "MA"
+  ],
+  [
+   "613",
+   "613",
+   "DZ"
+  ],
+  [
+   "615",
+   "615",
+   "NG"
+  ],
+  [
+   "616",
+   "616",
+   "KE"
+  ],
+  [
+   "617",
+   "617",
+   "CM"
+  ],
+  [
+   "618",
+   "618",
+   "CI"
+  ],
+  [
+   "619",
+   "619",
+   "TN"
+  ],
+  [
+   "620",
+   "620",
+   "TZ"
+  ],
+  [
+   "621",
+   "621",
+   "SY"
+  ],
+  [
+   "622",
+   "622",
+   "EG"
+  ],
+  [
+   "623",
+   "623",
+   "BN"
+  ],
+  [
+   "624",
+   "624",
+   "LY"
+  ],
+  [
+   "625",
+   "625",
+   "JO"
+  ],
+  [
+   "626",
+   "626",
+   "IR"
+  ],
+  [
+   "627",
+   "627",
+   "KW"
+  ],
+  [
+   "628",
+   "628",
+   "SA"
+  ],
+  [
+   "629",
+   "629",
+   "AE"
+  ],
+  [
+   "630",
+   "630",
+   "QA"
+  ],
+  [
+   "631",
+   "631",
+   "NA"
+  ],
+  [
+   "640",
+   "649",
+   "FI"
+  ],
+  [
+   "680",
+   "681",
+   "CN"
+  ],
+  [
+   "690",
+   "699",
+   "CN"
+  ],
+  [
+   "700",
+   "709",
+   "NO"
+  ],
+  [
+   "729",
+   "729",
+   "IL"
+  ],
+  [
+   "730",
+   "739",
+   "SE"
+  ],
+  [
+   "740",
+   "740",
+   "GT"
+  ],
+  [
+   "741",
+   "741",
+   "SV"
+  ],
+  [
+   "742",
+   "742",
+   "HN"
+  ],
+  [
+   "743",
+   "743",
+   "NI"
+  ],
+  [
+   "744",
+   "744",
+   "CR"
+  ],
+  [
+   "745",
+   "745",
+   "PA"
+  ],
+  [
+   "746",
+   "746",
+   "DO"
+  ],
+  [
+   "750",
+   "750",
+   "MX"
+  ],
+  [
+   "754",
+   "755",
+   "CA"
+  ],
+  [
+   "759",
+   "759",
+   "VE"
+  ],
+  [
+   "760",
+   "769",
+   "CH"
+  ],
+  [
+   "770",
+   "771",
+   "CO"
+  ],
+  [
+   "773",
+   "773",
+   "UY"
+  ],
+  [
+   "775",
+   "775",
+   "PE"
+  ],
+  [
+   "777",
+   "777",
+   "BO"
+  ],
+  [
+   "778",
+   "779",
+   "AR"
+  ],
+  [
+   "780",
+   "780",
+   "CL"
+  ],
+  [
+   "784",
+   "784",
+   "PY"
+  ],
+  [
+   "786",
+   "786",
+   "EC"
+  ],
+  [
+   "789",
+   "790",
+   "BR"
+  ],
+  [
+   "800",
+   "839",
+   "IT"
+  ],
+  [
+   "840",
+   "849",
+   "ES"
+  ],
+  [
+   "850",
+   "850",
+   "CU"
+  ],
+  [
+   "858",
+   "858",
+   "SK"
+  ],
+  [
+   "859",
+   "859",
+   "CZ"
+  ],
+  [
+   "860",
+   "860",
+   "RS"
+  ],
+  [
+   "865",
+   "865",
+   "MN"
+  ],
+  [
+   "867",
+   "867",
+   "KP"
+  ],
+  [
+   "868",
+   "869",
+   "TR"
+  ],
+  [
+   "870",
+   "879",
+   "NL"
+  ],
+  [
+   "880",
+   "881",
+   "KR"
+  ],
+  [
+   "883",
+   "883",
+   "MM"
+  ],
+  [
+   "884",
+   "884",
+   "KH"
+  ],
+  [
+   "885",
+   "885",
+   "TH"
+  ],
+  [
+   "888",
+   "888",
+   "SG"
+  ],
+  [
+   "890",
+   "890",
+   "IN"
+  ],
+  [
+   "893",
+   "893",
+   "VN"
+  ],
+  [
+   "894",
+   "894",
+   "BD"
+  ],
+  [
+   "896",
+   "896",
+   "PK"
+  ],
+  [
+   "899",
+   "899",
+   "ID"
+  ],
+  [
+   "900",
+   "919",
+   "AT"
+  ],
+  [
+   "930",
+   "939",
+   "AU"
+  ],
+  [
+   "940",
+   "949",
+   "NZ"
+  ],
+  [
+   "955",
+   "955",
+   "MY"
+  ],
+  [
+   "958",
+   "958",
+   "MO"
+  ],
+  [
+   "960",
+   "969",
+   "GB"
+  ]
+ ]
+}
