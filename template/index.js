@@ -72,7 +72,7 @@ function frame({ lang, node, title, desc, canonical, body, ld = null, robots = "
     + `<meta property="og:title" content="${esc(title)}"><meta property="og:url" content="${esc(canonical)}"><meta property="og:locale" content="${esc(lang)}">${CSS}`
     + (ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>` : "") + `</head><body>`
     + `<header><a href="${nodeUrl(node)}/">gtinfinder${node === "root" ? "" : ` · ${esc(NODE[node].name)}`}</a><a href="https://${ROOT}/">${esc(t.all84)}</a></header><main>${body}</main>`
-    + `<footer>© 2027 WeFetch AI Corp. · <a href="https://gtinfetch.ai/">${esc(t.powered)}</a> · <a href="https://${ROOT}/#contact">${esc(t.contact)}</a> · <a href="${CODE_URL}">Code</a> · 260-4611 Viking Way, Richmond, BC V6V 2K9, Canada</footer></body></html>`;
+    + `<footer>© 2027 WeFetch AI Corp. · <a href="https://gtinfetch.ai/">${esc(t.powered)}</a> · <a href="${GTINFETCH_MCP}">${esc(t.mcp || "MCP")}</a> · <a href="https://${ROOT}/#contact">${esc(t.contact)}</a> · <a href="${CODE_URL}">Code</a> · 260-4611 Viking Way, Richmond, BC V6V 2K9, Canada</footer></body></html>`;
 }
 const HEADERS = (type, lang, extra = {}) => ({ "content-type": `${type}; charset=utf-8`, "content-language": lang, "cache-control": "public, max-age=300", "access-control-allow-origin": "*",
   "content-signal": "ai-train=yes, search=yes, ai-input=yes", link: `</llms.txt>; rel="describedby", <${GTINFETCH_MCP}>; rel="service"`, ...extra });
@@ -159,6 +159,7 @@ function robots(node) { return ["User-agent: *", "Allow: /", "", "Content-Signal
 function llms(node) {
   const m = NODE[node]; const t = T(m ? m.lang : "en");
   return [`# gtinfinder${m ? ` · ${m.name}` : ""}`, "", `> 84M GTINs. ${TEXTS.en.s13}`, "", m ? `This node holds the barcodes whose home market is ${m.name}, in ${(TEXTS[m.lang] || {}).name || m.lang}. Every barcode has one page, on its home market's node.` : "This is the home of gtinfinder and of the barcodes with no home market among its markets.", "",
+    "## Connect", `- MCP (the place an AI agent connects): ${GTINFETCH_MCP}`, "",
     "## A barcode page", `- ${nodeUrl(node)}/barcode/{gtin14} (the 13 and 12 digit forms reach the same page; a barcode whose home is another node forwards there)`, "- Ask for application/json or text/markdown at the same address for the same facts as data.",
     "", "## The full record", "- https://gtinfetch.ai/01/{gtin14}", `- The gtinfetch Model Context Protocol (MCP) server: ${GTINFETCH_MCP}`, "", "## Data", `- ${TEXTS.en.data_line}`, `- Code: ${CODE_URL} (MIT licence)`, "",
     "## Every market", ...MARKETS.map(x => `- ${x.name}: ${nodeUrl(x.node)}/`), "- No home market: https://gtinfinder.ai/", ""].join("\n");
