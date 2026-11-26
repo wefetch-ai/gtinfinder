@@ -43,7 +43,8 @@
 "form_company": "Company",
 "form_gtin": "GTIN (optional)",
 "form_message": "Message",
-"form_send": "Send"
+"form_send": "Send",
+"mcp": "MCP"
 },
 "fr": {
 "dir": "ltr",
@@ -89,7 +90,8 @@
 "form_company": "Entreprise",
 "form_gtin": "GTIN (facultatif)",
 "form_message": "Message",
-"form_send": "Envoyer"
+"form_send": "Envoyer",
+"mcp": "MCP"
 },
 "de": {
 "dir": "ltr",
@@ -135,7 +137,8 @@
 "form_company": "Unternehmen",
 "form_gtin": "GTIN (optional)",
 "form_message": "Nachricht",
-"form_send": "Senden"
+"form_send": "Senden",
+"mcp": "MCP"
 },
 "es": {
 "dir": "ltr",
@@ -181,7 +184,8 @@
 "form_company": "Empresa",
 "form_gtin": "GTIN (opcional)",
 "form_message": "Mensaje",
-"form_send": "Enviar"
+"form_send": "Enviar",
+"mcp": "MCP"
 },
 "it": {
 "dir": "ltr",
@@ -227,7 +231,8 @@
 "form_company": "Azienda",
 "form_gtin": "GTIN (facoltativo)",
 "form_message": "Messaggio",
-"form_send": "Invia"
+"form_send": "Invia",
+"mcp": "MCP"
 },
 "nl": {
 "dir": "ltr",
@@ -273,7 +278,8 @@
 "form_company": "Bedrijf",
 "form_gtin": "GTIN (optioneel)",
 "form_message": "Bericht",
-"form_send": "Versturen"
+"form_send": "Versturen",
+"mcp": "MCP"
 },
 "pt": {
 "dir": "ltr",
@@ -319,7 +325,8 @@
 "form_company": "Empresa",
 "form_gtin": "GTIN (opcional)",
 "form_message": "Mensagem",
-"form_send": "Enviar"
+"form_send": "Enviar",
+"mcp": "MCP"
 },
 "pl": {
 "dir": "ltr",
@@ -365,7 +372,8 @@
 "form_company": "Firma",
 "form_gtin": "GTIN (opcjonalnie)",
 "form_message": "Wiadomość",
-"form_send": "Wyślij"
+"form_send": "Wyślij",
+"mcp": "MCP"
 },
 "bg": {
 "dir": "ltr",
@@ -411,7 +419,8 @@
 "form_company": "Компания",
 "form_gtin": "GTIN (по избор)",
 "form_message": "Съобщение",
-"form_send": "Изпращане"
+"form_send": "Изпращане",
+"mcp": "MCP"
 },
 "cs": {
 "dir": "ltr",
@@ -457,7 +466,8 @@
 "form_company": "Společnost",
 "form_gtin": "GTIN (nepovinné)",
 "form_message": "Zpráva",
-"form_send": "Odeslat"
+"form_send": "Odeslat",
+"mcp": "MCP"
 },
 "fi": {
 "dir": "ltr",
@@ -503,7 +513,8 @@
 "form_company": "Yritys",
 "form_gtin": "GTIN (valinnainen)",
 "form_message": "Viesti",
-"form_send": "Lähetä"
+"form_send": "Lähetä",
+"mcp": "MCP"
 },
 "el": {
 "dir": "ltr",
@@ -549,7 +560,8 @@
 "form_company": "Εταιρεία",
 "form_gtin": "GTIN (προαιρετικό)",
 "form_message": "Μήνυμα",
-"form_send": "Αποστολή"
+"form_send": "Αποστολή",
+"mcp": "MCP"
 },
 "hu": {
 "dir": "ltr",
@@ -595,7 +607,8 @@
 "form_company": "Cég",
 "form_gtin": "GTIN (nem kötelező)",
 "form_message": "Üzenet",
-"form_send": "Küldés"
+"form_send": "Küldés",
+"mcp": "MCP"
 },
 "sr": {
 "dir": "ltr",
@@ -641,7 +654,8 @@
 "form_company": "Компанија",
 "form_gtin": "GTIN (необавезно)",
 "form_message": "Порука",
-"form_send": "Пошаљи"
+"form_send": "Пошаљи",
+"mcp": "MCP"
 },
 "ru": {
 "dir": "ltr",
@@ -687,7 +701,8 @@
 "form_company": "Компания",
 "form_gtin": "GTIN (необязательно)",
 "form_message": "Сообщение",
-"form_send": "Отправить"
+"form_send": "Отправить",
+"mcp": "MCP"
 },
 "sk": {
 "dir": "ltr",
@@ -733,7 +748,8 @@
 "form_company": "Spoločnosť",
 "form_gtin": "GTIN (nepovinné)",
 "form_message": "Správa",
-"form_send": "Odoslať"
+"form_send": "Odoslať",
+"mcp": "MCP"
 },
 "sv": {
 "dir": "ltr",
@@ -779,7 +795,8 @@
 "form_company": "Företag",
 "form_gtin": "GTIN (valfritt)",
 "form_message": "Meddelande",
-"form_send": "Skicka"
+"form_send": "Skicka",
+"mcp": "MCP"
 },
 "tr": {
 "dir": "ltr",
@@ -825,7 +842,8 @@
 "form_company": "Şirket",
 "form_gtin": "GTIN (isteğe bağlı)",
 "form_message": "Mesaj",
-"form_send": "Gönder"
+"form_send": "Gönder",
+"mcp": "MCP"
 },
 "uk": {
 "dir": "ltr",
@@ -871,7 +889,8 @@
 "form_company": "Компанія",
 "form_gtin": "GTIN (необов’язково)",
 "form_message": "Повідомлення",
-"form_send": "Надіслати"
+"form_send": "Надіслати",
+"mcp": "MCP"
 },
 "da": {
 "dir": "ltr",
@@ -917,7 +936,8 @@
 "form_company": "Virksomhed",
 "form_gtin": "GTIN (valgfrit)",
 "form_message": "Besked",
-"form_send": "Send"
+"form_send": "Send",
+"mcp": "MCP"
 },
 "ro": {
 "dir": "ltr",
@@ -963,7 +983,8 @@
 "form_company": "Companie",
 "form_gtin": "GTIN (opțional)",
 "form_message": "Mesaj",
-"form_send": "Trimite"
+"form_send": "Trimite",
+"mcp": "MCP"
 },
 "hr": {
 "dir": "ltr",
@@ -1009,7 +1030,8 @@
 "form_company": "Tvrtka",
 "form_gtin": "GTIN (neobavezno)",
 "form_message": "Poruka",
-"form_send": "Pošalji"
+"form_send": "Pošalji",
+"mcp": "MCP"
 },
 "sl": {
 "dir": "ltr",
@@ -1055,7 +1077,8 @@
 "form_company": "Podjetje",
 "form_gtin": "GTIN (neobvezno)",
 "form_message": "Sporočilo",
-"form_send": "Pošlji"
+"form_send": "Pošlji",
+"mcp": "MCP"
 },
 "lv": {
 "dir": "ltr",
@@ -1101,7 +1124,8 @@
 "form_company": "Uzņēmums",
 "form_gtin": "GTIN (nav obligāti)",
 "form_message": "Ziņojums",
-"form_send": "Sūtīt"
+"form_send": "Sūtīt",
+"mcp": "MCP"
 },
 "et": {
 "dir": "ltr",
@@ -1147,7 +1171,8 @@
 "form_company": "Ettevõte",
 "form_gtin": "GTIN (valikuline)",
 "form_message": "Sõnum",
-"form_send": "Saada"
+"form_send": "Saada",
+"mcp": "MCP"
 },
 "ja": {
 "dir": "ltr",
@@ -1193,7 +1218,8 @@
 "form_company": "会社名",
 "form_gtin": "GTIN（任意）",
 "form_message": "メッセージ",
-"form_send": "送信"
+"form_send": "送信",
+"mcp": "MCP"
 },
 "id": {
 "dir": "ltr",
@@ -1239,7 +1265,8 @@
 "form_company": "Perusahaan",
 "form_gtin": "GTIN (opsional)",
 "form_message": "Pesan",
-"form_send": "Kirim"
+"form_send": "Kirim",
+"mcp": "MCP"
 },
 "ms": {
 "dir": "ltr",
@@ -1285,7 +1312,8 @@
 "form_company": "Syarikat",
 "form_gtin": "GTIN (pilihan)",
 "form_message": "Mesej",
-"form_send": "Hantar"
+"form_send": "Hantar",
+"mcp": "MCP"
 },
 "ko": {
 "dir": "ltr",
@@ -1331,7 +1359,8 @@
 "form_company": "회사",
 "form_gtin": "GTIN(선택)",
 "form_message": "메시지",
-"form_send": "보내기"
+"form_send": "보내기",
+"mcp": "MCP"
 },
 "th": {
 "dir": "ltr",
@@ -1377,7 +1406,8 @@
 "form_company": "บริษัท",
 "form_gtin": "GTIN (ไม่บังคับ)",
 "form_message": "ข้อความ",
-"form_send": "ส่ง"
+"form_send": "ส่ง",
+"mcp": "MCP"
 },
 "vi": {
 "dir": "ltr",
@@ -1423,7 +1453,8 @@
 "form_company": "Công ty",
 "form_gtin": "GTIN (không bắt buộc)",
 "form_message": "Tin nhắn",
-"form_send": "Gửi"
+"form_send": "Gửi",
+"mcp": "MCP"
 },
 "ar": {
 "dir": "rtl",
@@ -1469,7 +1500,8 @@
 "form_company": "الشركة",
 "form_gtin": "GTIN (اختياري)",
 "form_message": "الرسالة",
-"form_send": "إرسال"
+"form_send": "إرسال",
+"mcp": "MCP"
 },
 "fa": {
 "dir": "rtl",
@@ -1515,7 +1547,8 @@
 "form_company": "شرکت",
 "form_gtin": "GTIN (اختیاری)",
 "form_message": "پیام",
-"form_send": "ارسال"
+"form_send": "ارسال",
+"mcp": "MCP"
 },
 "he": {
 "dir": "rtl",
@@ -1561,6 +1594,7 @@
 "form_company": "חברה",
 "form_gtin": "GTIN (רשות)",
 "form_message": "הודעה",
-"form_send": "שליחה"
+"form_send": "שליחה",
+"mcp": "MCP"
 }
 }
